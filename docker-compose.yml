@@ -1,8 +1,8 @@
 version: "3" # 1
 services: # 2
   db:
-    platform: linux/x86_64
-    image: mysql:5.7 # 3
+    # platform: linux/x86_64
+    image: mysql/mysql-server:5.7.28 # 3
     environment: # 4
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: django-db
