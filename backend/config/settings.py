@@ -55,7 +55,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000'
+    'http://localhost:3000',
+    'http://18.183.172.58:3000',
 ]
 ROOT_URLCONF = 'config.urls'
 
