@@ -22,7 +22,7 @@ services: # 2
     depends_on: # 10
       - db
   app:
-    build: ./frontend/web-front/
+    build: ./frontend/
     volumes:
       - ./frontend/web-front:/usr/src/app
     command: sh -c "npm run dev"
