@@ -16,7 +16,7 @@ const Home: NextPage = () => {
   const [todos, setTodo] = useState<Todo[]>([]);
 
   const getData = async () => {
-    const res = await axios.get("http://localhost:8000/api/");
+    const res = await axios.get("http://18.183.172.58:8000/api/");
     setTodo(res.data);
   };
 
